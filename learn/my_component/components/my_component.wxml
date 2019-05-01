@@ -1,0 +1,6 @@
+<view class="container"> 
+  <view class="greet_container">
+        Hello,<slot></slot>
+  </view>
+  <button class="finish_btn" bindtap="onTap">完成</button>
+</view>

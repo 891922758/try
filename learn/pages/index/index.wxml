@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="column column1" >
+    <view class="num_One" wx:for="{{num_Item_One}}" wx:key="num_One" style="height:50px; display:block; ">
+      <view class="mini">{{item}}</view>
+    </view>
+  </view>
+  <view class="column column2" >
+    <view class="num_Two" wx:for="{{num_Item_Two}}" wx:key="num_Two" style="height:50px; display:block; word-wrap:word break;">
+      <view class="mini">{{item}}</view>
+    </view>
+  </view>
+  <view class="column column3" >
+    <view class="num_Three" wx:for="{{num_Item_Three}}" wx:key="num_Three" style="height:50px; display:block; word-wrap:word break;">
+     <view class="mini">{{item}}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,27 @@
+<!--
+？？？？？
+<view class="pagebody">
+      <view class="first_part">
+         <input placeholder='请输入姓名'  bindinput='input_over' class="input_name" ></input>
+         <button class="btn_confirm" bindtap="change_show">确定</button>
+      </view>
+      <part class="{{show_flag?'show_class':'hide_class'}}" bindmyHide="hide_component">
+      </part>
+      <view bindttt="okk">ppppp</view>
+</view>-->
+<view class="mask {{show_flag?'show_class':'hide_class'}}"></view>
+<view class="pagebody">
+
+      <view class="first_part">
+         <input placeholder='请输入姓名'  bindinput='input_over' class="input_name" ></input> 
+         <button class="btn_confirm" bindtap="change_show">确定</button>
+      </view>
+
+      <view class="greet">
+        <part class=" {{show_flag?'show_class':'hide_class'}}"  bindtapFinish="myfinish">
+           <view>{{inputValue}}</view>
+        </part>
+      </view>
+
+      <button class="btn_done {{show_flag2?'show_class':'hide_class'}}">Done!</button>
+</view>

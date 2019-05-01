@@ -1,0 +1,21 @@
+.container{
+  margin-top:10rpx;
+  margin-left:75rpx;
+  padding-top: 150rpx;
+  padding-bottom: 50rpx;
+  width:600rpx;
+  background-color: white;
+}
+
+.greet_container{
+  justify-content: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+.finish_btn{
+  background-color:white;
+  width: 162.5rpx;
+  height: 80rpx;
+  margin-top:40rpx;
+}

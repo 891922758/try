@@ -1,0 +1,45 @@
+.first_part{
+  margin-top:50rpx;
+  background-color: #F8F8F8;
+}
+.btn_confirm,.btn_done{
+  margin-top:30rpx;
+  margin-bottom:90rpx;
+  width:20%;
+  height:80rpx;
+}
+
+.btn_done{
+  position: absolute;
+  margin-left:40%;
+  margin-top:400rpx;
+}
+
+.greet{
+
+  position: absolute;
+  z-index: 100;
+}
+
+.hide_class{
+  display: none;
+}
+
+.show_class{
+  display:block;
+}
+
+.input_name{
+  height:15rpx;
+  width:60%;
+  background-color:white;
+  margin-left:20%;
+}
+
+.mask{
+  margin-top:-50rpx;
+  height:100%;
+  width:100%;
+  z-index: 10;
+  position:absolute;
+}
